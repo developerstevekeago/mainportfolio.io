@@ -1,20 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Merriweather:wght@400;700&display=swap');
+
 :root {
-    --primary-bg: #0f0f0f; /* Dark background */
-    --secondary-bg: #202020; /* Slightly lighter dark background for sections */
-    --accent-color: #5dd62c; /* Bright green for highlights and accents */
-    --accent-dark: #337418; /* Dark green for hover effects */
-    --text-color: #f8f8f8; /* Light text for readability */
-    --card-bg: #202020; /* Card background matching the secondary background */
-    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-    --border-color: rgba(255, 255, 255, 0.1); /* Light border for cards and sections */
+    --primary-bg: #0a1833;         
+    --secondary-bg: #162447;       
+    --accent-color: #3fa7ff;       
+    --accent-dark: #155fa0;        
+    --text-color: #f8faff;         
+    --card-bg: #1b2a4a;            
+    --box-shadow: 0 4px 8px rgba(10, 24, 51, 0.25); 
+    --border-color: rgba(255, 255, 255, 0.08);       
     --font-family: 'Poppins', sans-serif;
     --font-family-alt: 'Merriweather', serif;
 }
 
-   
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Merriweather:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -152,6 +152,7 @@ header .links a:hover {
 .about-me {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-between;
     padding: 50px 20px;
     background-color: var(--secondary-bg);
@@ -187,7 +188,8 @@ header .links a:hover {
     color: var(--text-color);
 }
 
-.about-image {
+/* .about-image {
+
     flex: 1;
     max-width: 400px;
     text-align: center;
@@ -211,7 +213,7 @@ header .links a:hover {
 .image-wrapper:hover img {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
+} */
 
 
 @media (max-width: 768px) {
