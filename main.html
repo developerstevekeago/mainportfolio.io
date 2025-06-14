@@ -641,7 +641,11 @@
         background-color: var(--sda-blue);
       }
 
+
+
+
       /* Contact Section */
+/*       
       .contact {
         background-color: var(--color-bg);
       }
@@ -674,7 +678,7 @@
         font-size: 1.2rem;
         margin-bottom: 0.3rem;
         color: var(--sda-blue);
-      }
+      }*/
 
       .contact-form {
         background-color: var(--text-light);
@@ -711,7 +715,7 @@
       textarea.form-control {
         min-height: 150px;
         resize: vertical;
-      }
+      } 
 
       /* Footer */
       .footer {
@@ -762,29 +766,47 @@
 
       .social-links {
         display: flex;
-        gap: 1rem;
+        gap: 5px;
       }
 
       .social-links a {
+        margin: 0 20px;
         display: inline-flex;
         align-items: center;
-        justify-content: center;
-        width: 40px;
-        height: 40px;
-        background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 50%;
+        justify-content: center; 
         transition: var(--transition);
+        background: inherit;
+   
+        
+        i{
+          margin-top: 20px;
+          color:var(--sda-gold);
+          font-size: 1.7rem;
+
+        }
       }
 
       .social-links a:hover {
-        background-color: var(--sda-gold);
+        
         transform: translateY(-5px);
       }
+      .social-links a i :hover {
+        color: var(--text-light);
+      }
+      
+
+
+      
 
       .footer-bottom {
         text-align: center;
         padding-top: 2rem;
         border-top: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      #btn1{
+        margin-top: 1.5rem;
+        border: 1px solid white;
       }
 
       /* Back to Top Button */
@@ -935,6 +957,10 @@
         font-size: 2.5rem;
         color: var(--color-primary); 
       }
+
+  
+
+      
     </style>
   </head>
   <body>
@@ -1133,7 +1159,7 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="section portfolio">
       <div class="container">
-        <h2 class="section-title text-center hidden">Our Portfolio</h2>
+        <h2 class="section-title text-center hidden">Portfolio</h2>
         <div class="portfolio-filter hidden">
           <button class="filter-btn active" data-filter="all">All</button>
           <button class="filter-btn" data-filter="web">Web Design</button>
@@ -1306,8 +1332,8 @@
         </div>
       </div>
     </section>
-
-    <!-- Contact Section -->
+<!-- 
+  
     <section id="contact" class="section contact">
       <div class="container">
         <h2 class="section-title text-center hidden">Get In Touch</h2>
@@ -1365,23 +1391,23 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <div class="footer-container">
           <div class="footer-col hidden">
-            <h3>ModernSite</h3>
+            <h3>SteveKeago.</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <div class="social-links">
-              <a href="#"><span>📱</span></a>
-              <a href="#"><span>📧</span></a>
-              <a href="#"><span>🔗</span></a>
-              <a href="#"><span>📸</span></a>
+              <a href="#"><i class="fa-brands fa-linkedin "></i></a>
+              <a href="#"><i class="fa-brands fa-github "></i></a>
+              <a href="#"><i class="fa-brands fa-instagram "></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter "></i></a>
             </div>
           </div>
           <div class="footer-col hidden">
@@ -1414,12 +1440,12 @@
                 class="form-control"
                 required
               />
-              <button type="submit" class="btn">Subscribe</button>
+              <button type="submit" class="btn" id="btn1">Subscribe</button>
             </form>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2023 ModernSite. All Rights Reserved.</p>
+          <p>&copy; 2023 Keagosteve. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
