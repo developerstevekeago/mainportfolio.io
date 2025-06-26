@@ -1,5 +1,7 @@
 # 💫 About Me:
-my portfolio
+I'm a passionate and driven individual with a strong interest in technology and innovation. I'm always looking for ways to improve and expand my skills, and I'm excited to collaborate with others who share my enthusiasm.  When I'm not coding, you can find me exploring new hobbies, reading about the latest advancements in AI and machine learning, or simply enjoying time with friends and family. I'm a firm believer in the power of technology to drive positive change and improve people's lives , and I'm excited to be a part of this community.  I'm looking forward to learning from and contributing to this community, and I'm excited to see the amazing things we can achieve together ! 
+
+
 
 
 ## 🌐 Socials:
@@ -11,6 +13,7 @@ my portfolio
 ![](https://github-readme-stats.vercel.app/api?username=developerstevekeago&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=developerstevekeago&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=developerstevekeago&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+ 
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=developerstevekeago&theme=radical&no-frame=false&no-bg=false&margin-w=4)
@@ -20,6 +23,7 @@ my portfolio
 
 ---
 [![](https://visitcount.itsvg.in/api?id=developerstevekeago&icon=2&color=0)](https://visitcount.itsvg.in)
+ 
 
   ## 💰 You can help me by Donating
   [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/keagosteve) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/stephenkeago) 
